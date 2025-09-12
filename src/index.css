@@ -18,13 +18,6 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-}
-
 header {
   text-align: center;
   margin: 3rem 0;
@@ -54,15 +47,9 @@ header p {
 }
 
 main {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-main h2 {
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  margin: 0 0 1.5rem 0;
-  color: #a18aba;
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
 }
 
 #core-concepts {
@@ -70,6 +57,13 @@ main h2 {
   border-radius: 6px;
   background-color: #140524;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+main h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 1.5rem 0;
+  color: #a18aba;
 }
 
 #core-concepts ul {
@@ -131,18 +125,20 @@ main h2 {
 
 #examples menu button:hover {
   background-color: #1b082f;
+  color: #ebe7ef;
 }
 
 #examples menu button.active {
   background-color: #7925d3;
+  color: #ebe7ef;
 }
 
 #tab-content {
+  text-align: left;
   padding: 1rem;
   border-radius: 6px;
   background-color: #2f1d43;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  text-align: left;
 }
 
 #tab-content h3 {

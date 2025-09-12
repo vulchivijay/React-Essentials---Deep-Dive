@@ -1,9 +1,9 @@
-export default function Card({ data }) {
+export default function Card({ image, title, description }) {
   return (
     <li>
-      <img src={data.image} alt={data.title} />
-      <h3>{data.title}</h3>
-      <p>{data.description}</p>
+      <img src={image} alt={title} />
+      <h3>{title}</h3>
+      <p>{description}</p>
     </li>
   )
 }
